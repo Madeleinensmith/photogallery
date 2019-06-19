@@ -1,0 +1,38 @@
+section{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.pictues{
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+  border: 7px solid white;
+  object-fit:cover;
+  padding: 5px;
+  border-radius: 7px;
+}
+#lion{
+  object-fit: scale-down;
+}
+#parrot{
+  object-fit: fill;
+}
+body{
+  background-color: #DBE9EE;
+}
+h1{
+  font-family: 'Cabin', sans-serif;
+  border: 6px solid white;
+  background-color: pink;
+  border-radius: 20px;
+}
+@media screen and (max-width:700px){
+
+.pictues{
+  height: 400px;
+  width:400px;
+  border: 10px solid white;
+  object-fit: cover;
+}
+}
